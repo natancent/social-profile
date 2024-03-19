@@ -1,0 +1,96 @@
+
+<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Inter',sans-serif;
+  }
+
+  :root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey: hsl(0, 0%, 20%);
+--Dark-Grey: hsl(0, 0%, 12%);
+--Off-Black: hsl(0, 0%, 8%);
+  }
+
+  body {
+      background-color: var(--Off-Black);
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10rem 0;
+  }
+  .profile {
+    text-align: center;
+  }
+  .profile h1 {
+    color: var(--White);
+    margin-top: 2rem;
+    font-weight: 600;
+  }
+  
+  img {
+    max-width:8rem ;
+    border-radius: 50%;
+
+  }
+  .container{
+    max-width: 400px;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Dark-Grey);
+    padding: 2.5rem 2.5rem ;
+    margin-bottom: 5rem;
+  }
+  .tree {
+    max-width: 400px;
+    width: 100%;
+    max-height: 80vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .attribution{
+      color: aliceblue;
+      text-decoration: none;
+      font-size: 1.2rem;
+  }
+  .tree a {
+    color: var(--White);
+    padding: 15px;
+    background-color: var(--Grey);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: .5rem;
+  }
+  .tree a:hover {
+    background-color: var(--Green);
+    color: var(--Dark-Grey);
+    transition: .5s;
+
+  }
+  .place{
+    color: var(--Green);
+    font-weight: 600;
+    padding:1rem;
+  }
+
+  .bio-phrase{
+    color: var(--White);
+  }
+  a{
+    color: var(--Green);
+  }
+  
+</style>
